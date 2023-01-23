@@ -1,0 +1,28 @@
+name: Web App CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    name: pass/fail checks
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./app
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 16
+    - run: npm ci
+    - run: npm run build
+    - run: npm run lint
+    - run: npm run format-check
+    - run: npm run test
+    

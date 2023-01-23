@@ -1,0 +1,75 @@
+{
+  "claim_info": {
+    "benefit_year_start": "2019-12-08",
+    "weekly_benefit_amount": 400,
+    "claim_id": "890123",
+    "monetary_determination": "eligible",
+    "separation_determination": "eligible",
+    "submitted_at": "2019-12-08"
+  },
+  "issues": [],
+  "certification_weeks": [
+    {
+      "start_date": "2019-12-08",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2019-12-15",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2019-12-22",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2019-12-29",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2020-01-05",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2020-01-12",
+      "certification_status": "complete"
+    }
+  ],
+  "payments": [
+    {
+      "start_date": "2019-12-08",
+      "waiting_week": true,
+      "payment_amount": null,
+      "payment_sent_date": null
+    },
+    {
+      "start_date": "2019-12-15",
+      "waiting_week": false,
+      "payment_amount": 400,
+      "payment_sent_date": "2019-12-23"
+    },
+    {
+      "start_date": "2019-12-22",
+      "waiting_week": false,
+      "payment_amount": 400,
+      "payment_sent_date": "2019-12-30"
+    },
+    {
+      "start_date": "2019-12-29",
+      "waiting_week": false,
+      "payment_amount": 400,
+      "payment_sent_date": "2020-01-06"
+    },
+    {
+      "start_date": "2020-01-05",
+      "waiting_week": false,
+      "payment_amount": 400,
+      "payment_sent_date": "2020-01-13"
+    },
+    {
+      "start_date": "2020-01-12",
+      "waiting_week": false,
+      "payment_amount": 400,
+      "payment_sent_date": "2020-01-20"
+    }
+  ]
+}

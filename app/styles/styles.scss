@@ -1,0 +1,7 @@
+/**
+ * @file Entry-point for the site's styles.
+ */
+@forward "uswds-theme";
+@forward "uswds";
+@forward "uswds-theme-custom-styles";
+@import "~@trussworks/react-uswds/lib/index.css";

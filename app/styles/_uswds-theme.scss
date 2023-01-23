@@ -1,0 +1,34 @@
+/*
+----------------------------------------
+USWDS with settings overrides
+----------------------------------------
+Uncomment the following lines and add a list of changed settings
+in the form $setting: value,
+----------------------------------------
+*/
+
+@use "uswds-core" with (
+  // Disable scary but mostly irrelevant warnings:
+  $theme-show-notifications: false,
+
+  // Specify USWDS font and image paths.
+  // Same paths are successfully used for both Next.js and Storybook.
+  $theme-font-path: "/uswds/fonts",
+  $theme-image-path: "/uswds/img",
+  // Typography overrides
+  $theme-font-type-sans: "public-sans",
+
+  // Color overrides
+  $theme-color-primary-lightest: "blue-5",
+
+  // Output more responsive prefix options
+  $theme-utility-breakpoints:
+    ("mobile-lg": true, "tablet": true, "tablet-lg": true, "desktop": true),
+  // Output utility styles with !important. This means utilities will always
+  // override existing component styles, regardless of the component's CSS specificity,
+  // which more closely aligns with people's mental models of utility classes.
+  $utilities-use-important: true,
+
+  // Allow responsive prefixes for the white-space utility classes
+  $whitespace-settings: ("responsive": true, "output": true)
+);

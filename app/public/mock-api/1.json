@@ -1,0 +1,13 @@
+{
+  "claim_info": {
+    "benefit_year_start": null,
+    "weekly_benefit_amount": null,
+    "claim_id": "123456",
+    "monetary_determination": null,
+    "separation_determination": null,
+    "submitted_at": null
+  },
+  "issues": [],
+  "certification_weeks": [],
+  "payments": []
+}

@@ -1,0 +1,84 @@
+{
+  "CallToAction": {
+    "questionnaire": "Completar cuestionario",
+    "upload": "Adjuntar documentos de identidad",
+    "start_claim": "Inicie una solicitud nueva",
+    "complete_claim": "Complete su solicitud",
+    "start_appeal": "Inicie una apelación"
+  },
+  "Certifications": {
+    "heading": "Certificación",
+    "status_column_heading": "Estatus de la certificación ",
+    "status_complete": "Complete",
+    "status_pending": "Inicie la certificación",
+    "status_upcoming": "Certificación para beneficios comienza el {{date, datetime}}",
+    "status_expired": "El plazo para la certificación de beneficios ha cerrado.",
+    "week_column_heading": "Semana"
+  },
+  "ClaimDetails": {
+    "heading": "Detalles de la solicitud",
+    "id_label": "Número de solicitud",
+    "benefit_year_label": "Fecha de vigencia",
+    "weekly_benefit_label": "Monto de beneficios semanales"
+  },
+  "DateRange": {
+    "range": "{{start, datetime}} – {{end, datetime}}"
+  },
+  "DollarAmount": {
+    "amount": "{{amount, currency(USD)}}"
+  },
+  "LanguageSelector": {
+    "language_to_switch_to": "In English"
+  },
+  "Layout": {
+    "demo_banner": "<strong>Este sitio solo tiene fines de demostración</strong>.  Los datos que se muestran en esta página web reflejan el escenario visto por un solicitante el <date-tag>1 de enero de 2022</date-tag>",
+    "title": "USDOL Demo",
+    "feedback": "Su opinión es importante, déjenos saber qué piensa"
+  },
+  "NextStep": {
+    "issue_contested_separation": "Necesitamos verificar el motivo de su separación de empleo, antes de emitir cualquier pago. Por favor, complete el cuestionario disponible en el siguiente enlace.",
+    "issue_identity_proofing": "Necesitamos una forma adicional de identificación para procesar su solicitud. Utilice el botón siguiente para adjuntar su documento de identificación.",
+    "issue_ability_availability": "Necesitamos verificar su disposición y disponibilidad para trabajar antes de proceder con el pago de beneficios. Por favor, complete el cuestionario disponible en el siguiente enlace.",
+    "issue_incomplete_claim": "Su solicitud está incompleta. Por favor, complete su solicitud antes del {{date, datetime}}, o la información que ha guardado ya no estará disponible.",
+    "issue_claim_complete": "La fecha de vigencia de su solicitud ha caducado. Para continuar solicitando beneficios, inicie una nueva solicitud usando el botón a continuación.",
+    "issue_in_monetary_review": "Su solicitud ha sido recibida, pero pueden demorar hasta {{days}} días que cambie el estado de su solicitud. Una vez que finalicemos el proceso de revisión de sus ingresos, se le comunicará en una carta la decisión tomada y continuaremos procesando su solicitud.",
+    "issue_insufficient_wages": "Su salario total no cumple con los requisitos mínimos de elegibilidad. Para obtener más detalles, consulte su <determination-link>notificación de determinación</determination-link>. Si cree que esta decisión es un error, puede presentar una apelación.",
+    "issue_work_search": "Necesitamos información adicional sobre su búsqueda de trabajo antes de proceder con sus pagos. Por favor, complete el cuestionario usando el botón siguiente."
+  },
+  "Payments": {
+    "heading": "Pagos",
+    "amount_column_heading": "Cantidad",
+    "status_column_heading": "Estatus del pago",
+    "remaining_balance_column_heading": "Balance restante",
+    "status_pending_certification": "Complete la certificación para recibir pagos",
+    "status_expired": "No elegiblee",
+    "status_pending_eligibility": "Pago pendiente de revisión",
+    "status_upcoming": "Certificación comienza el {{date, datetime}}",
+    "status_paid": "{{amount, currency(USD)}} pagado el {{date, datetime}}",
+    "status_other": "Hubo un problema con su pago",
+    "status_waiting": "Semana de espera reglamentaria"
+  },
+  "PendingClaimantActions": {
+    "certify": "Certifique para recibir pagos",
+    "heading": "Pasos siguientes",
+    "certification_status_available": "Tiene semanas habilitadas para la certificación de beneficios; siga los pasos a continuación para completar su certificación semanal.",
+    "certification_status_future": "Certifique sus beneficios cada semana, una vez que estén disponibles.",
+    "certification_status_available_needs_appeal": "Durante el proceso de apelación, por favor continúe enviando sus certificaciones semanales."
+  },
+  "StatusIndicator": {
+    "status_1_complete": "Solicitud presentada",
+    "status_2_complete": "Revisión de ingresos",
+    "status_3_complete": "Solicitud revisada",
+    "status_4_complete": "Decisión tomada",
+    "status_5_complete": "Beneficios agotados",
+    "status_1_upcoming": "Complete su solicitud",
+    "status_2_upcoming": "Revisión de ingresos",
+    "status_3_upcoming": "Solicitud en revisión",
+    "status_4_upcoming": "Decisión tomada",
+    "status_5_upcoming": "Fin de los beneficios",
+    "label_assistive": "Progreso de su solicitud",
+    "state_assistive_upcoming": "Próximamente",
+    "state_assistive_complete": "Finalizado",
+    "state_assistive_current": "Usted se encuentra aquí"
+  }
+}

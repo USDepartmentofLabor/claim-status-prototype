@@ -1,0 +1,75 @@
+{
+  "CallToAction": {
+    "questionnaire": "Complete questionnaire",
+    "upload": "Upload proof of identity",
+    "complete_claim": "Finish your claim",
+    "start_claim": "Start a new claim",
+    "start_appeal": "Start appeal"
+  },
+  "ClaimDetails": {
+    "heading": "Claim details",
+    "id_label": "Claim ID",
+    "benefit_year_label": "Benefit year",
+    "weekly_benefit_label": "Weekly benefit amount"
+  },
+  "DateRange": {
+    "range": "{{start, datetime}} – {{end, datetime}}"
+  },
+  "DollarAmount": {
+    "amount": "{{amount, currency(USD)}}"
+  },
+  "LanguageSelector": {
+    "language_to_switch_to": "En Español"
+  },
+  "Layout": {
+    "demo_banner": "<strong>This site is for demo purposes only</strong>. This and other scenarios shown are representative examples of common use cases, but do not encompass all possible situations, next steps, and messaging. Data shown is reflecting a scenario where a claimant is viewing the page on <date-tag>January 1, 2022</date-tag>",
+    "title": "USDOL Demo",
+    "feedback": "Your feedback is important - Let us know how we are doing"
+  },
+  "NextStep": {
+    "issue_contested_separation": "We need to verify the reason for your separation before your certification can be processed. Please complete the questionnaire using the button below.",
+    "issue_identity_proofing": "We need an additional form of identification to continue processing your claim. Please use the link below to upload a proof of identification.",
+    "issue_ability_availability": "We need to verify your ability and availability to work before your certification can be processed. Please complete the questionnaire using the button below.",
+    "issue_incomplete_claim": "Your claim is not yet filed. Please complete your claim by {{date, datetime}} or your saved progress will no longer be available.",
+    "issue_claim_complete": "Your benefit year has ended. To continue claim benefits, start a new application using the button below.",
+    "issue_in_monetary_review": "Your claim has been received, but it may take up to {{days}} days before the status of your claim changes. Once we finalize reviewing your earnings, a determination letter will be provided and we will continue processing your claim.",
+    "issue_insufficient_wages": "Your total wages did not meet the minimum requirements for eligibility. For more details, refer to your <determination-link>determination notice</determination-link>. If you believe this decision is in error, you can file an appeal.",
+    "issue_work_search": "We need additional information regarding your work search before your certification can be processed. Please complete the questionnaire using the button below."
+  },
+  "Payments": {
+    "heading": "Payments",
+    "week_column_heading": "Week",
+    "status_column_heading": "Payment status",
+    "remaining_balance_column_heading": "Remaining balance",
+    "status_pending_certification": "Certify",
+    "status_expired": "Not eligible",
+    "status_pending_eligibility": "Eligibility pending review",
+    "status_upcoming": "Certification opens on {{date, datetime}}",
+    "status_paid": "{{amount, currency(USD)}} issued on {{date, datetime}}",
+    "status_other": "There was an issue with your payment",
+    "status_waiting": "No payment for waiting week"
+  },
+  "PendingClaimantActions": {
+    "certify": "Certify",
+    "heading": "Your next steps",
+    "certification_status_available": "You have weeks available to certify. Please follow the steps below to complete your weekly certification.",
+    "certification_status_future": "Certify weekly to receive benefits as they become available.",
+    "certification_status_available_needs_appeal": "During the appeal process, please continue to submit your weekly certifications."
+  },
+  "StatusIndicator": {
+    "status_1_complete": "Claim filed",
+    "status_2_complete": "Earnings reviewed",
+    "status_3_complete": "Claim reviewed",
+    "status_4_complete": "Decision made",
+    "status_5_complete": "Benefits exhausted",
+    "status_1_upcoming": "File claim",
+    "status_2_upcoming": "Earnings review",
+    "status_3_upcoming": "Claim in review",
+    "status_4_upcoming": "Decision made",
+    "status_5_upcoming": "End of benefits",
+    "label_assistive": "Claim progress",
+    "state_assistive_upcoming": "Upcoming",
+    "state_assistive_complete": "Completed",
+    "state_assistive_current": "You're here"
+  }
+}

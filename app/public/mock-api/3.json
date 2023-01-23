@@ -1,0 +1,90 @@
+{
+  "claim_info": {
+    "benefit_year_start": "2021-12-05",
+    "weekly_benefit_amount": 500,
+    "claim_id": "345678",
+    "monetary_determination": "eligible",
+    "separation_determination": "pending",
+    "submitted_at": "2021-12-05"
+  },
+  "issues": [
+    {
+      "type": "contested_separation",
+      "created_at": "2022-01-01",
+      "actions": [
+        {
+          "type": "questionnaire",
+          "status": "pending",
+          "metadata": {
+            "questionnaire-type": "fact_finding"
+          }
+        }
+      ]
+    },
+    {
+      "type": "identity_proofing",
+      "created_at": "2022-01-01",
+      "id": "2",
+      "actions": [
+        {
+          "type": "document_upload",
+          "status": "pending",
+          "metadata": {
+            "document_type": "drivers_license",
+            "uploaded_date": null
+          }
+        }
+      ]
+    }
+  ],
+  "certification_weeks": [
+    {
+      "start_date": "2021-12-05",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2021-12-12",
+      "certification_status": "complete"
+    },
+    {
+      "start_date": "2021-12-19",
+      "certification_status": "pending"
+    },
+    {
+      "start_date": "2021-12-26",
+      "certification_status": "pending"
+    },
+    {
+      "start_date": "2022-01-02",
+      "certification_status": "pending"
+    }
+  ],
+  "payments": [
+    {
+      "start_date": "2021-12-05",
+      "waiting_week": true,
+      "payment_amount": null,
+      "payment_sent_date": null
+    },
+    {
+      "start_date": "2021-12-12",
+      "payment_amount": null,
+      "payment_sent_date": null
+    },
+    {
+      "start_date": "2021-12-19",
+      "payment_amount": null,
+      "payment_sent_date": null
+    },
+    {
+      "start_date": "2021-12-26",
+      "payment_amount": null,
+      "payment_sent_date": null
+    },
+    {
+      "start_date": "2022-01-02",
+      "payment_amount": null,
+      "payment_sent_date": null
+    }
+  ]
+}
