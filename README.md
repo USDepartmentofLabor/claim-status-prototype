@@ -1,3 +1,6 @@
+>[!WARNING]
+>This repository has been archived and is no longer maintained. The code is provided for historical reference and may contain unpatched or unknown vulnerabilities. It should ***not*** be used in production systems.
+
 # Claim status prototype
 
 This repo contains a frontend prototype for a claim status page, with the goal of addressing the following problem statement:
